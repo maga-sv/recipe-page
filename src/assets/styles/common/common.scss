@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.container {
+  max-width: 766px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.title {
+  font-family: "YoungSerif";
+
+}
+
+.line {
+  opacity: 0.5;
+  margin: 33px 0;
+}
+
+body {
+  background: var(--lightColor);
+}
+
+:root {
+  --titlesColor: hsl(14, 45%, 36%);
+  --secTitleColor: hsl(332, 51%, 32%);
+  --lighTextColor: hsl(30, 18%, 87%);
+  --keyTextsColor: hsl(30, 10%, 34%);
+
+  --darkColor: hsl(24, 5%, 18%);
+  --boxBgColor: hsl(0, 0%, 100%);
+  --lightMainColor: hsl(330, 100%, 98%);
+  --lightColor: hsl(30, 54%, 90%);
+}

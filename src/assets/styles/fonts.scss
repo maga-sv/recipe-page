@@ -1,0 +1,18 @@
+$Outfit: ("Regular", 400), ("SemiBold", 400),("Bold", 400);
+
+
+@each $name, $weight in $Outfit {
+
+    @font-face {
+        src: url(../fonts/outfit/static/Outfit-#{$name}.ttf);
+        font-weight: $weight;
+        font-family: "Outfit";
+    }
+    
+}
+
+@font-face {
+    src: url(../fonts/young-serif/YoungSerif-Regular.ttf);
+    font-family: "YoungSerif";
+    font-weight: 400;
+}
